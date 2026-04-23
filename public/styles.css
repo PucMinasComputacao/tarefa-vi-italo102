@@ -1,0 +1,126 @@
+/* ===== RESET COMPLEMENTAR ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== CABEÇALHO ===== */
+#main-navbar {
+  background-color: #1e1b4b;
+  padding: 16px 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #c7d2fe !important;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+/* ===== BANNER ===== */
+.banner {
+  background: linear-gradient(135deg, #4f46e5, #0891b2);
+  color: #fff;
+}
+
+.banner h1 {
+  color: #fff;
+}
+
+.banner p {
+  opacity: 0.9;
+  max-width: 600px;
+  color: #fff;
+}
+
+.btn-custom {
+  background-color: #fff;
+  color: #4f46e5;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.btn-custom:hover {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+}
+
+/* ===== SEÇÃO INTRODUTÓRIA ===== */
+.intro {
+  background-color: #f8fafc;
+}
+
+.intro h2 {
+  font-size: 1.8rem;
+  color: #1e1b4b;
+}
+
+.intro p {
+  color: #555;
+  font-size: 1.05rem;
+}
+
+/* ===== SEÇÃO DE CARDS ===== */
+.cards-section {
+  background-color: #fff;
+}
+
+.cards-section h2 {
+  font-size: 1.8rem;
+  color: #1e1b4b;
+}
+
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #1e1b4b;
+}
+
+.card-text {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+  background-color: #1e1b4b;
+  color: #c7d2fe;
+}
+
+footer p {
+  color: #c7d2fe;
+}
+
+.social-links a {
+  color: #c7d2fe;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
